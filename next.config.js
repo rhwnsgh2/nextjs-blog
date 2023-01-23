@@ -4,16 +4,9 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/post/:path",
+        source: "/naver/post/:path",
         destination: "https://link.coupang.com/a/:path",
         permanent: false,
-        has: [
-          {
-            type: "host",
-
-            value: "naver.com",
-          },
-        ],
       },
     ];
   },
