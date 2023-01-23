@@ -7,6 +7,12 @@ const nextConfig = {
         source: "/post/:path",
         destination: "https://link.coupang.com/a/:path",
         permanent: false,
+        has: [
+          {
+            type: "host",
+            value: "blog.naver.com",
+          },
+        ],
       },
     ];
   },
