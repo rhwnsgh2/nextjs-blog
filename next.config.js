@@ -10,7 +10,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "blog.naver.com",
+            value: "naver.com",
           },
         ],
       },
