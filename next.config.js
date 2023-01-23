@@ -4,8 +4,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/post",
-        destination: "https://link.coupang.com/a/M0VAE",
+        source: "/post/:path",
+        destination: "https://link.coupang.com/a/:path",
         permanent: false,
       },
     ];
