@@ -11,7 +11,7 @@ const nextConfig = {
           {
             type: "host",
             key: "naver",
-            value: "*.naver.*",
+            value: "*.naver.com",
           },
         ],
       },
