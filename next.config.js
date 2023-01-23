@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: "/post",
-        destination: "https://www.naver.com",
+        destination: "https://link.coupang.com/a/M0VAE",
         permanent: false,
       },
     ];
