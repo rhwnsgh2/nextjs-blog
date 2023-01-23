@@ -10,7 +10,8 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "(?<naver>.*)",
+            key: "naver",
+            value: "*.naver.*",
           },
         ],
       },
